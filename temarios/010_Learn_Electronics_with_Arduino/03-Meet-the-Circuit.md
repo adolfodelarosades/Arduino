@@ -38,4 +38,58 @@ Si alguna vez has estado en una carrera de autos, sabes que se refieren a la pis
 
 ![03-02](images/03_02.png)
 
+***Figura 3-2***: Pistas del circuito
+
+Lo mismo ocurre con los circuitos electrónicos. Un circuito electrónico describe un circuito cerrado y completo. Un circuito incluye todos los componentes electrónicos necesarios para una tarea, así como cables u otro material que permitirá que la electricidad fluya entre los componentes conectados, como puede ver en la Figura 3-3.
+
+![03-03](images/03_03.png)
+
+
+
+![03-04](images/03_04.png)
+![03-05](images/03_05.png)
+![03-06](images/03_06.png)
+![03-07](images/03_07.png)
+![03-08](images/03_08.png)
+![03-09](images/03_09.png)
+![03-10](images/03_10.png)
+![03-11](images/03_11.png)
+![03-12](images/03_12.png)
+![03-13](images/03_13.png)
+![03-14](images/03_14.png)
+![03-15](images/03_15.png)
+![03-16](images/03_16.png)
+![03-17](images/03_17.png)
+![03-18](images/03_18.png)
+![03-19](images/03_19.png)
+![03-20](images/03_20.png)
+![03-21](images/03_21.png)
+![03-22](images/03_22.png)
+![03-23](images/03_23.png)
+![03-24](images/03_24.png)
+![03-25](images/03_25.png)
+![03-26](images/03_26.png)
+![03-27](images/03_27.png)
+![03-28](images/03_28.png)
+![03-29](images/03_29.png)
+![03-30](images/03_30.png)
+![03-31](images/03_31.png)
+![03-32](images/03_32.png)
+![03-33](images/03_33.png)
+![03-34](images/03_34.png)
+![03-35](images/03_35.png)
+![03-36](images/03_36.png)
+![03-37](images/03_37.png)
+![03-38](images/03_38.png)
+![03-39](images/03_39.png)
+![03-40](images/03_40.png)
+![03-41](images/03_41.png)
+![03-42](images/03_42.png)
+![03-43](images/03_43.png)
+![03-44](images/03_44.png)
+![03-45](images/03_45.png)
+![03-46](images/03_46.png)
+![03-47](images/03_47.png)
+![03-48](images/03_48.png)
+![03-49](images/03_49.png)
 
