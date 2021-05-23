@@ -4,4 +4,4 @@ Concebimos este libro como una introducción a la electrónica y la plataforma A
 
 Este libro debería ser el punto de partida para proyectos creativos. Cuando termine de leer el libro y complete todos los ejercicios que contiene, los lectores deben estar equipados para comenzar a desarrollar sus propios proyectos. No hemos cubierto todo lo que Arduino puede hacer, pero hemos preparado a los lectores para que lo descubran por sí mismos.
 
-Muchos de los esquemas de código utilizados en este libro se toman de los ejemplos del IDE de Arduino. Los otros bocetos están disponibles aquí: github.com/arduinotogo/LEA.
+Muchos de los esquemas de código utilizados en este libro se toman de los ejemplos del IDE de Arduino. Los otros bocetos están disponibles aquí: https://github.com/arduinotogo/LEA.
