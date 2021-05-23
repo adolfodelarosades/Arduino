@@ -5,4 +5,5 @@
 * Components and Tools
 * Summary
 
-![02-01](images/02-01.png)
+![02-01](images/02_01.png)
+
