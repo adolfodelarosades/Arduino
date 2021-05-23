@@ -57,7 +57,7 @@ Este libro es su introducción a la informática física con la plataforma de mi
 * Back to Debugging Our Circuit
 * Summary
 
-## Chapter 4: Programming the Arduino
+## [Chapter 4: Programming the Arduino](010_Learn_Electronics_with_Arduino/04-Programming-the-Arduino.md)
 
 * Arduino, Circuits, and Code: Bringing Everything Together
 * What’s an IDE?
