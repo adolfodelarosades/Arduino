@@ -24,10 +24,10 @@ Este libro es su introducción a la informática física con la plataforma de mi
 ## Table of Contents
 
 * Acknowledgments
-* About the Authors
-* Preface
+* [About the Authors](010_Learn_Electronics_with_Arduino/000-02-Autores.md)
+* [Preface](010_Learn_Electronics_with_Arduino/000-03-Preface.md)
 
-### Chapter 1: Introduction to Arduino
+### [Chapter 1: Introduction to Arduino](010_Learn_Electronics_with_Arduino/01-Introduction-to-Arduino.md)
 
 * Physical Computing
 * Prototyping
@@ -36,7 +36,7 @@ Este libro es su introducción a la informática física con la plataforma de mi
 * Resources
 * Summary
 
-### Chapter 2: Your Arduino
+### [Chapter 2: Your Arduino](010_Learn_Electronics_with_Arduino/02-Your-Arduino.md)
 
 * Parts of an Arduino
 * Plug Your Arduino into Your Computer
