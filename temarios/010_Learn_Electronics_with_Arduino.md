@@ -43,7 +43,7 @@ Este libro es su introducción a la informática física con la plataforma de mi
 * Components and Tools
 * Summary
 
-### Chapter 3: Meet the Circuit
+### [Chapter 3: Meet the Circuit](010_Learn_Electronics_with_Arduino/03-Meet-the-Circuit.md)
 
 * The Circuit: Building Block of Electronics
 * The Schematic
