@@ -276,22 +276,97 @@ El nombre del sketch aparece en una pestaña en la esquina superior izquierda de
 
 ***Figura 4-19***: Una ventana de dibujo en blanco y otra con código escrito en ella
 
-AQUIIIIIIIIIIIIIIIII
+### ABRIR UN SKETCH DE EJEMPLO
+
+Antes de comenzar a escribir su propio código, exploremos un ejemplo que se incluye en el IDE de Arduino. El IDE tiene muchos ejemplos (código de muestra) que demuestran muchas de las cosas que Arduino puede hacer integradas en él. Puede cargar un ejemplo en la ventana de código y cargarlo en su Arduino cuando esté conectado a su computadora.
+
+Primero, abra el sketch de ejemplo llamado **Blink** seleccionando `File > Examples > 01.Basics > Blink`, como se muestra en la Figura 4-20.
 
 ![04_20](images/04_20.png)
-***Figura 4-20***:
+
+***Figura 4-20***: Abrir el sketch Blink
+
+### GUARDAR SU SKETCH
+
+De forma predeterminada, sus sketches de Arduino se guardarán dentro de la carpeta Arduino dentro de la carpeta Documentos de su computadora. Es una buena idea seguir guardando en este espacio, ya que facilita el regreso a los archivos. Arduino también realiza un seguimiento de los archivos pasados, guardados dentro de esta carpeta en el menú desplegable Sketchbook en el menú File.
+
+Aunque esté utilizando el código de un ejemplo, es mejor guardarlo ahora con un nombre diferente para que siempre pueda volver al código de ejemplo original sin ajustar más adelante. De esa manera, cuando realice cambios y guarde su sketch, sabrá que no ha guardado accidentalmente el sketch de ejemplo de Blink. Guarde su sketch como **LEA4_Blink** para que pueda encontrar sus cambios más tarde.
+
+### ¡GUARDAR PRONTO, GUARDAR A MENUDO!
+
+Adquiera el hábito de guardar sus archivos. Al igual que no querría perder trabajo de un documento u otro proyecto, guardar pronto y con frecuencia puede ayudar a evitar la frustración si por alguna razón su computadora cierra el IDE de Arduino (pérdida de energía, hipo momentáneo, etc.). Aunque las probabilidades de que esto suceda son bajas, la única vez que suceda se alegrará de no tener que repetir todo el trabajo que hizo porque guardó su proyecto y no tiene que preocuparse por ello.
+
+> **Tip**
+> 
+> Siga guardando sus archivos sketch mientras trabaja.
+
+### CARGANDO UN SKETCH AL ARDUINO
+
+Ahora que ha guardado el sketch de ejemplo con un nuevo nombre, es hora de cargarlo en Arduino. Antes de subirlo, verifiquemos que no haya errores. Aunque esté utilizando el código integrado en el IDE, acostúmbrese a verificar siempre su código antes de cargarlo.
+
+Hay dos botones de los que hablamos anteriormente que debe tener en cuenta cuando esté listo para cargar su código: Verify y Upload. Hemos resaltado ambos botones en la Figura 4-21.
+
 ![04_21](images/04_21.png)
-***Figura 4-21***:
+
+***Figura 4-21***: Botones Verify y Upload en el IDE de Arduino
+
+#### Paso 1: Verifique su Sketch
+
+La verificación garantiza que su código esté configurado correctamente. Haga clic en el botón Verify para asegurarse de que no haya errores (Figura 4-22). A menos que haya realizado cambios en el sketch LEA4_Blink antes de guardarlo, todo funcionará bien.
+
 ![04_22](images/04_22.png)
-***Figura 4-22***:
+
+***Figura 4-22***: El botón Verify
+
+La ventana de mensaje en la parte inferior del IDE que se muestra en la Figura 4-23 mostrará "Done compiling" y no mostrará errores.
+
 ![04_23](images/04_23.png)
-***Figura 4-23***:
+
+***Figura 4-23***: La ventana message
+
+Cuando verifique su código, recibirá un mensaje que le notifica que algo está mal si hay algún error en su sketch. El IDE de Arduino solo conoce los errores de programación, no los errores que pueda haber cometido al configurar su circuito con Arduino. (Cubriremos esos tipos de errores a medida que avanzamos en el libro). Cuando escribimos texto en la ventana del IDE de Arduino, el código parece algo que los humanos pueden leer, pero Arduino no entiende cómo interpretarlo. Su computadora convierte temporalmente el código a un idioma que Arduino entiende cuando hace clic en Verify para verificar estos errores.
+
+#### Paso 2: Upload tu Sketch
+
 ![04_24](images/04_24.png)
-***Figura 4-24***:
+
+***Figura 4-24***: El botón Upload
+
+Cuando hace clic en Upload (Figura 4-24), su computadora convierte el código a un lenguaje que Arduino entiende y luego comienza a enviar este programa inmediatamente a través del cable USB a su Arduino.
+
+#### Carga Continua: Status Bar y Ventana Message
+
+Una vez que haga clic en el botón Upload, la ventana del IDE de Arduino le dará una status bar que indica cuánto progreso ha hecho la carga y una ventana de mensaje con información como el tamaño del sketch. Esa status bar y la ventana de mensajes se parecen a la Figura 4-25.
+
+Una vez que el archivo se haya enviado a su Arduino, la ventana del mensaje dirá "Done uploading.".
+
+¡Eso es! Ahora su código de la ventana IDE se está ejecutando en Arduino.
+
 ![04_25](images/04_25.png)
-***Figura 4-25***:
+
+***Figura 4-25***: Upload progress bar
+
+#### Ejecute el Sketch LEA4_Blink
+
+Ahora que ha subido su sketch a Arduino, siempre que Arduino tenga energía de la computadora a través del cable USB, seguirá funcionando. El código que ha subido al Arduino contiene las instrucciones que le dicen a Arduino que haga parpadear la luz una y otra vez. El LED cerca del Pin 13 se encenderá y permanecerá encendido durante un segundo, luego se apagará durante un segundo, una y otra vez. Esto se ilustra en la Figura 4-26. Veremos el código en detalle en breve y veremos exactamente cómo funciona.
+
 ![04_26](images/04_26.png)
-***Figura 4-26***:
+
+***Figura 4-26***: El LED parpadea.
+
+Si su sketch LEA4_Blink no se está ejecutando, puede volver al proceso metódico utilizado para descubrir qué problema está impidiendo que su código funcione. Ya lo ha visto antes con nuestros dispositivos electrónicos y se conoce como ***debugging - depuración***.
+
+> **Nota**
+> 
+> ***Debugging*** es el nombre del proceso utilizado para resolver problemas con el circuito y con el código en sus proyectos Arduino.
+
+### DEBUGGING: QUÉ HACER SI EL LED NO ESTÁ PARPADEANDO
+AQUIIIIIIIIIIIII
+Si la carga se realizó correctamente y el LED parpadea, no hay nada que solucionar. Pero, ¿y si el LED no se enciende? Así como usó la depuración para buscar problemas en su circuito, depurará su código a lo largo del libro, buscando metódicamente los problemas que impiden que su código funcione correctamente. También buscará problemas con la configuración del hardware Arduino. Si tuvo algún problema con su boceto LEA4_Blink, asegúrese de que:
+
+Su cable USB está bien conectado tanto a su computadora como a su Arduino (Figura 4-27).
+Ha seleccionado el tipo de placa y el puerto serie correctos en los menús (Figura 4-28).
+
 ![04_27](images/04_27.png)
 ***Figura 4-27***:
 ![04_28](images/04_28.png)
